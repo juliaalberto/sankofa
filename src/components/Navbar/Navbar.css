@@ -1,0 +1,132 @@
+.navbar-container {
+    background-color: #FFFCF8;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 0.835vw;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    width: 168px;
+    width: 12%;
+    padding: 32px 39px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.links {
+    margin-right: 2.3em;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #FFFCF8;
+    background-color: #CD9B62;
+    border-radius: 30px;
+    border: 2px solid #CD9B62;
+    padding: 11px 20px;
+}
+
+.links a:hover {
+    background-color: #FFFCF8;
+    color: #556667;
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1.5em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 1228px) {
+    .navbar-container {
+        font-size: 1vw;
+    }
+
+    .logo {
+        width: 18%;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (max-width: 970px) {
+    .navbar-container {
+        font-size: 1.2vw;
+    }
+
+    .logo {
+        width: 24%;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .logo {
+        width: 28%;
+        transition: all 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    .navbar-container {
+        font-size: 1.6vw;
+    }
+    
+    .logo {
+        margin-right: auto;
+        margin-left: 0%;
+        width: 20%;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 16%;
+        left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #FFFCF8;
+        align-items: center;
+        text-align: center;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .links a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        width: 38px;
+        align-items: center;
+        right: 17px;
+        cursor: pointer;
+    }
+
+    .menu-icon img {
+        width: 90%;
+    }
+}
