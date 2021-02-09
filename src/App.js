@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Homepage/Home';
-import Edu from './compoents/EduComponents/Edu';
+import Edu from './components/EduComponents/Edu';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={ Home } />
-          <Route path='/' exact compoent={Edu} />
+          <Route path='/' exact compoent={ Edu } />
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
