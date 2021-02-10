@@ -1,8 +1,9 @@
 //import logo from './logo.svg';
 //import dispHeader from './edu-rsc.js';
-import './Edu.css';
 
-function Edu() {
+import './ResDirectory.css';
+
+function ResDirectory() {
   return (
     <div className="Edu">
       <h1>Educational Resources</h1>
@@ -34,5 +35,5 @@ function Edu() {
   );
 }
 
-export default Edu;
- 
+export default ResDirectory;
+
