@@ -13,7 +13,8 @@ function ResDirectory() {
 
       <h2>If you are a Black provider or a non-Black provider that has extensive training in supporting Black families of 
         children with disabilities we want your information. Please fill out the following form to enter your information into our directory. 
-        For additional information and/or if you have any questions or concerns, please contact Dr. Jazmin Burns at jlsheppard@ucdavis.edu. </h2>
+        For additional information and/or if you have any questions or concerns, please contact Dr. Jazmin Burns at jlsheppard@ucdavis.edu. 
+        </h2>
 
       <div className="btnRow">
       <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
