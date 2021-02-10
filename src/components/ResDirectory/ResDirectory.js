@@ -5,32 +5,21 @@ import './ResDirectory.css';
 
 function ResDirectory() {
   return (
-    <div className="Edu">
-      <h1>Educational Resources</h1>
-      <h2>General Resources</h2>
+    <div className="ResDirect">
+      <h1>Sankofa National Family Respource Directory</h1>
+      <h2>The Sankofa Parent Support Group at UC Davis is a social network for parents and caregivers of Black children with disabilities. 
+        Our goal is to empower parents to become strong advocates for the needs of their child. We are putting together a national Black provider directory for 
+        families raising children with Developmental Disabilities.</h2>
+
+      <h2>If you are a Black provider or a non-Black provider that has extensive training in supporting Black families of 
+        children with disabilities we want your information. Please fill out the following form to enter your information into our directory. 
+        For additional information and/or if you have any questions or concerns, please contact Dr. Jazmin Burns at jlsheppard@ucdavis.edu. </h2>
 
       <div className="btnRow">
-      <a href="https://www.understood.org">
-        <button className="btnCol" >Understood</button>
-      </a> 
-      <a href="https://sites.ed.gov/idea/">
-        <button className="btnCol">Individuals with Disabilities Education Act</button>
+      <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
+        <button className="btnCol" >Join Us</button>
       </a> 
       </div>
-
-      <h2>Community Advisory Committees (CACs)</h2>
-      <a href="https://www.scusd.edu/community-advisory-committee-cac">
-        <button className="btnRow">Sacramento City Unified School District CAC</button>
-      </a>
-      <a href="https://www.sjcoe.org/selpa/CAC.aspx#:~:text=The%20purpose%20of%20the%20Community,of%20children%20with%20exceptional%20needs">
-        <button className="btnRow">San Joaquin County Office of Education CAC</button>
-      </a>
-      <a href="https://natomasunified.org/departments/student-services-and-support/community-advisory-committee-cac/">
-        <button className="btnRow">Natomas Unified School District CAC</button>
-      </a>
-      <a href="https://www.sonomaselpa.org/pub/selpa_docs/cac.html">
-        <button className="btnRow">Sonoma County CAC</button>
-      </a>
     </div>
   );
 }
